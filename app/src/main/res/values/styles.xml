@@ -3,9 +3,13 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="@android:style/Theme.Material">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#4b2e83</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LogoStyle" parent="@style/AppTheme">
+      <item name="android:tint">#fff</item>
     </style>
 
     <style name="TextStyle" parent="@style/AppTheme">

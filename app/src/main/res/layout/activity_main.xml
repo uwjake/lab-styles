@@ -11,7 +11,7 @@
     tools:context="edu.uw.stylelab.MainActivity">
 
     <ImageView
-        style=
+        style="@style/LogoStyle"
         android:id="@+id/logo"
         android:layout_width="72sp"
         android:layout_height="72sp"
